@@ -4,13 +4,13 @@
 
 Learning Go concurrency by writing a web server for static HTML.
 
-### ./static
+### [static](static/static.go)
 Static HTML server based on [http.FileServer](https://pkg.go.dev/net/http#FileServer)
 
-### ./counter
+### [counter](counter/counter.go)
 Simple thread-safe request counter implemented using channels
 
-### ./sqrt
+### [sqrt](sqrt/sqrt.go)
 Playing around with floats and such, inspired by this [exercise](https://tour.golang.org/flowcontrol/8) in the Go Tour.
 
 ### Benchmarks
